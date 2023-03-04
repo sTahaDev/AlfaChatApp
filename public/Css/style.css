@@ -1,0 +1,35 @@
+body{
+    background-color: lightgray;
+}
+#chatmain{
+    
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border: 1px solid black;
+    height: 500px;
+    
+   
+}
+#chatmain h2 {
+    margin: 0px;
+    background-color: #609966;
+    color: white;
+}
+#chatwindow{
+    height: 100%;
+    background-color: #EDF1D6;
+    
+}
+#chatmain button{
+    background-color: #609966;
+    border: none;
+    height: 30px;
+    
+}
+#chatmain input{
+    
+    height: 30px;
+    padding: 5px;
+    border: 1px 0px solid black;
+}
